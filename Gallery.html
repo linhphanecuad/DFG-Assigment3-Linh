@@ -3,26 +3,89 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Gallery</title>
     <meta name="description" content="Gallery">
     <link rel="stylesheet" href="style.css">
     <style type="text/css">
     </style>
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <div id="gallery">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: brown;">
+        <a href="index.html" class="nav-brand" style="font-size: 30px;">Hau Pham</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
 
-        <img src="art1.jpeg">
-        <img src="art2.jpeg">
-        <img src="art3.webp">
-        <img src="art4.jpeg">
-        <img src="art5.jpg">
-        <img src="art6.jpeg">
-        <img src="art7.jpeg">
-        <img src="art8.jpeg">
+                    <a style="color: #93AF88;" class="nav-link" href="artist.html">Artist</a>
+                    <a style="color: #93AF88;" class="nav-link" href="Gallery.html">Gallery</a>
+                    <a style="color: #93AF88;" class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
 
+    </nav>
+    <div id="gallery" style="position:absolute; margin-top: 50px;">
+        <div class="col col-md-8 push-down-sm">
+            <div class="thumbnails">
+                <a href="art8.jpeg" data-lightbox="art"
+                    data-title="Landscape of the Middle Region in the North of Vietnam"><img style="padding-top: 25px;"
+                        src="tn8.png" alt="Art8"></a>
+                <a href="art1.jpeg" data-lightbox="art" data-title="Young Cowherds in Tonkinese Landscape "><img
+                        style="padding-top: 25px;" src="tn1.png" alt="Art1"></a>
+                <a href="art2.jpeg" data-lightbox="art" data-title="PAGODA LANDSCAPE IN THE NORTH OF VIETNAM"><img
+                        style="padding-top: 25px;" src="tn2.png" alt="art2"></a>
+                <a href="art3.jpeg" data-lightbox="art" data-title="Paysage aux jonques"><img style="padding-top: 25px;"
+                        src="tn3.png" alt="Art3"></a>
+                <a href="art4.jpeg" data-lightbox="art" data-title="Image Title"><img style="padding-top: 25px;"
+                        src="tn4.png" alt="art4"></a>
+                <a href="art5.jpg" data-lightbox="art" data-title="Image Title"><img style="padding-top: 25px;"
+                        src="tn5.png" alt="art5"></a>
+                <a href="art6.jpeg" data-lightbox="art" data-title="DEER AND STAGS IN THE FOREST"><img
+                        style="padding-top: 25px;" src="tn6.png" alt="art6"></a>
+                <a href="art7.jpeg" data-lightbox="art" data-title="GOLDFISH OF ABUNDANCE"><img
+                        style="padding-top: 25px;" src="tn7.png" alt="art7"></a>
+                <a href="art9.jpeg" data-lightbox="art" data-title="PALACE IN A LANDSCAPE"><img
+                        style="padding-top: 25px;" src="tn9.png" alt="Art9"></a>
+                <a href="art10.jpeg" data-lightbox="art" data-title="NINE CARPS IN THE WATER"><img
+                        style="padding-top: 25px;" src="tn10.png" alt="Art10"></a>
+            </div>
+        </div>
+    </div>
+    <div id="sidetext" style="font-family:'Cinzel Decorative',cursive">
+        <h3 style="color: black;">What is Vietnamese Lacquer Painting?</h3>
+        <div class="pic"><img src="sonmai.png"></image>
+        </div>
+
+        <p style="font-family: 'Italiana', serif;">Artists have used lacquer for its glossy finish for thousands of
+            years. One of its best-known applications is Japanese lacquerware -- decorative pieces of furniture, boxes,
+            and dinnerware. But in the early 20th century, Vietnamese artists developed an interest in lacquer painting
+            and created a style unique to the world.</p>
+
+        <p style="font-family: 'Italiana', serif;"> Traditional Vietnamese form of lacquer painting, or Son mai, is
+            painting using a toxic lacquer harvested from one region of the country. In Vietnam, the lacquer is a resin
+            of the lacquer tree planted mostly in the Northern Vietnamese province of Phu Tho. After extraction from
+            trees, natural lacquer is white with a milk-like consistency. It turns brown after coming into contact with
+            air, and becomes black once dried. It requires months of application and sanding back layers of paint to
+            build up the image. Each work is unique and unpredictable. That's because painters are never quite sure how
+            the layers will resurface through sanding. This can either increase the value of the work or force an artist
+            to start over.
+        </p>
+
+        <p style="font-family: 'Italiana', serif;"> These are Hau's most popular paintings that remain till today. </p>
+
+    </div>
     </div>
 
 </body>

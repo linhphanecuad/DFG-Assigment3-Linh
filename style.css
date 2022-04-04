@@ -1,90 +1,147 @@
+/* Index page style */
 .container-1 {
-    height: 23cm;
-    background-image: url(bg1.png);
-    background-size: cover;
-    
-}
-h1  {
-    font-family: 'Cinzel Decorative', cursive;
-    color:white;
-    text-align: center;
-    
+  height: 23cm;
+  background-image: url(bg1.png);
+  background-size: cover;
 
 }
-h3{
-    color:white;
-    text-align: center;
-   
-    
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: white;
+  text-align: center;
+
+
 }
+
+h3 {
+  color: white;
+  text-align: center;
+
+
+}
+
 a {
-    
-    font-family: 'Cinzel Decorative', cursive;
-    color: white;
-    text-decoration:none;
-    
-  }
-  .container-2 {
-    height: 23cm;
-    background-image: url(bg2.png);
-    background-size: cover;
-    text-align: center;
+
+  font-family: 'Cinzel Decorative', cursive;
+  color: white;
+  text-decoration: none;
+
 }
+
+.container-2 {
+  height: 23cm;
+  background-image: url(bg2.png);
+  background-size: cover;
+  text-align: center;
+}
+
 .container-3 {
-    height: 23cm;
-    background-image: url(bg3.png);
-    background-size: cover;
-    text-align: center;
+  height: 23cm;
+  background-image: url(bg3.png);
+  background-size: cover;
+  text-align: center;
 }
+
 .container-4 {
-    height: 23cm;
-    background-image: url(bg4.png);
-    background-size: cover;
-    text-align: center;
+  height: 23cm;
+  background-image: url(bg4.png);
+  background-size: cover;
+  text-align: center;
 }
 
- #gallery img {
- 
-     margin: 0;
-     padding: 0;
-     height: auto;
-     max-width: 30cm;
-     
- }
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  
-  input[type=submit] {
-    background-color: #7A3E25;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
- 
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  
-  .container {
-    border-radius: 5px;
-    background-color: #F0E6C9;
-    padding: 20px;
-  }
-.artist {
-    background-color: #A49E65;
-    background-size: 100%;
+/* Contact page style */
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #7A3E25;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Artistt page style */
+
+.bio {
+  font-family: 'Italiana', serif;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  margin-top: 10%;
+  border-radius: 5px;
+  background-color: #F0E6C9;
+  padding: 20px;
+}
+
+.pic {
+  margin-left: 11%;
+  margin-top: 15px;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.portrait {
+  padding-left: 20px;
+  margin-top: 140px;
+}
+
+
+/* Navbar style */
+.nav-item {
+  display: flex;
+}
+
+.nav-brand {
+  margin: 1rem;
+
+}
+
+/* Gallery page style */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnails a {
+  width: 50%;
+  margin-left: 25px;
+}
+
+#sidetext {
+  position: fixed;
+  left: 55%;
+  margin-top: 50px;
+  padding-right: 30px;
+  font-size: 22px;
+
 }
